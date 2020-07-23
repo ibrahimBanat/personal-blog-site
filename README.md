@@ -6,6 +6,6 @@ This project is part of  udacity Front-End Developer NanoDegree, the goal of thi
 
 ![Blog-Image](https://github.com/ibrahimBanat/personal-blog-site/blob/master/Personal%20Blog%20site/pix/index.html.png "Blog-Image")
 
-##View
+## View
 
 To view full project [Click Here]()
