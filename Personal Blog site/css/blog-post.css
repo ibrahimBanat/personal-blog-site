@@ -1,0 +1,128 @@
+@import "layout.css";
+@import "nav.css";
+@import "fot.css";
+
+/* additional text styling */
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+#post {
+    padding: 0 30px 20px 30px;
+}
+
+
+
+footer {
+    grid-area: ft;
+    height: 30px;
+    color: #222;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* author info */
+
+.meta {
+    text-align: center;
+}
+
+.post-info {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.05em;
+    margin: 0.2em 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.author-info {
+    width: 100%;
+    height: auto;
+    background-color: #94f7d1;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author-info p {
+    margin: 0;
+}
+
+.author-info-text {
+    width: 100%;
+}
+
+.circle-frame {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.author-info-img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    max-width: 200px;
+    object-fit: cover;
+}
+
+
+/* blog image */
+
+.blog-article img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* social links */
+
+.social-sharing {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+/* post suggestion */
+
+hr {
+    border-top: 1px solid #94f7d1;
+    margin: 20px 0;
+}
+
+.post-suggestions {
+    grid-area: post-suggestions;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.post-suggestions h4 {
+    width: 100%;
+}
+
+.suggestion-card {
+    width: 30%;
+    min-width: 120px;
+    height: auto;
+}
+
+.suggestion-card h6 {
+    font-size: 1.2em;
+}
+
+.suggestion-card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}

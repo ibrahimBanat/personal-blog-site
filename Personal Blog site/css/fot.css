@@ -1,0 +1,11 @@
+/* footer bar */
+footer{
+    grid-area: ft;
+    color: #222;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.fab{
+    padding: 5px;
+}
